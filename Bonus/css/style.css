@@ -64,12 +64,12 @@ p{
 }
 
 .background-lilla{
-   background-color: #7289DA;
+   background-color: #5865F2;
    color: white;
 }
 
 .font-lilla{
-   color: #7289DA;
+   color: #5865F2;
 }
 
 /* ----- SELETTORI SPECIFICI ----- */
@@ -167,4 +167,31 @@ header{
    justify-content: space-between;
 }
 
+/* ----- BONUS ----- */
 
+.button:hover{
+  transition: box-shadow .3s;
+  box-shadow: 0px 5px 10px #000000b0;
+}
+
+.background-white:hover{
+   transition: box-shadow .3s;
+   color: #7983F5;
+}
+
+.background-lilla:hover{
+   transition: box-shadow .3s;
+   background-color: #7289DA;
+}
+
+.onda{
+   height: 130px;
+   background-image: url(../img/wave.svg);
+   filter: invert(100%) sepia(8%) saturate(787%) hue-rotate(199deg) brightness(117%) contrast(92%);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.rev{
+   transform: rotateX(180deg);
+}
