@@ -2,16 +2,13 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: inherit;
 }
 
 /* --- DEBUG --- */
 
 .bordo{
    border: dashed 2px black;
-}
-
-.small > nav, .small > div{
-   background-color: #DAA520;
 }
 
 .big{
@@ -24,19 +21,19 @@
    width: 40%;
 }
 
-section img, p{
+/* section img, p{
    height: 500px;
 }
 
-img{
+section img{
    background-color: #1E90FF;
    width: 60%;
 }
 
-p{
+section p{
    background-color: pink;
    width: 40%;
-}
+} */
 
 .verde{
    background-color: #228B22;
@@ -55,7 +52,7 @@ p{
    background-color: #7FFFD4;
 }
 
-/* --- DEBUG --- */
+/* ----- SELETTORI RIUTILIZZABILI ----- */
 
 header{
    background-color: #255EE9;
@@ -73,25 +70,25 @@ header{
    padding: 50px 0;
 }
 
-.small > nav{
-   height: 40px;
+.font-white{
+   color: white;
 }
 
-.small > div{
-   padding: 5px;
-   height: 40px;
-   margin: 10px 0;
+.button{
+   border-radius: 20px;
+   padding: 10px;
 }
 
-.small div{
-   width: 15%;
+/* ----- SELETTORI SPECIFICI ----- */
+
+.small div:last-child{
+   text-align: right;
 }
 
-nav{
-  width: 70%;
+.small{
+   justify-content: space-between;
 }
 
-/* PERCHE NON SOVRASCRIVE LA REGOLA DEL 20PX? */
 #lista{
   padding: 10px;
   list-style:none;
@@ -103,12 +100,15 @@ li{
 
 a{
   text-decoration: none;
-  color: black;
 }
 
-.right{
-   flex-direction: row-reverse;
+.small .button{
+   background-color: white;
 }
+
+
+
+
 
 .right-grey{
    background-color: #D3D3D3;
