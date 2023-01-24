@@ -1,0 +1,170 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+/* ----- SELETTORI RIUTILIZZABILI ----- */
+
+.layout-width{
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.flex-centrato{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+}
+
+li{
+   padding: 0 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.font-white{
+   color: white;
+}
+
+.button{
+   border-radius: 20px;
+   padding: 10px;
+   display: inline-block;
+}
+
+.background-black{
+   background-color: #23272A;
+   color: white;
+}
+
+.background-white{
+   background-color: white;
+}
+
+h1{
+   margin: 10px 0;
+   font-size: 40px;
+}
+
+p{
+   line-height: 30px;
+}
+
+.paragrafo-sezione{
+   width: 34%;
+}
+
+.background-grey{
+   background-color: #F6F6F6;
+}
+
+.background-lilla{
+   background-color: #7289DA;
+   color: white;
+}
+
+.font-lilla{
+   color: #7289DA;
+}
+
+/* ----- SELETTORI SPECIFICI ----- */
+
+/* Header */
+header{
+   background-color: #255EE9;
+}
+
+.small{
+   justify-content: space-between;
+   padding: 20px 0;
+}
+
+.lista{
+  padding: 10px;
+  list-style:none;
+}
+
+.big{
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 110px 0;
+}
+
+.jumbo{
+   width: 40%;
+   margin: auto;
+   text-align: center;
+}
+
+.jumbo > div,.jumbo > p,.jumbo > h1{
+   padding: 10px;
+}
+
+/* main */
+
+.sezione-grande{
+   text-align: center;
+   padding: 100px 0;
+}
+
+.sfondo-stelline{
+   background-image: url(../img/stars.svg);
+   background-repeat: no-repeat;
+   padding: 70px 0;
+   background-position: center;
+ }
+
+/* footer */
+/* div grande */
+
+.div-grande{
+   height: 400px;
+   width: 35%;
+}
+
+.lingua{
+   height: 20px;
+   margin: 20px 0;
+}
+
+.lingua img{
+   height: 20px;
+}
+
+.fa-brands{
+   font-size: 30px;
+   padding: 10px 10px 0 0;
+}
+
+/* div piccolo */
+
+.div-piccolo{
+   height: 400px;
+   width: 25%;
+   margin-bottom: 20px;
+}
+
+.div-piccolo li{
+   padding: 10px 0;
+}
+
+/* secondo footer */
+
+.hr{
+   border-top: solid 1px #7289DA;
+   padding: 0;
+}
+
+.barra-footer{
+   height: 100px;
+   width: 100%;
+   justify-content: space-between;
+}
+
+
