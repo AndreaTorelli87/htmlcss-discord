@@ -7,7 +7,7 @@
 
 /* --- DEBUG --- */
 
-.bordo{
+/* .bordo{
    border: dashed 2px black;
 }
 
@@ -17,7 +17,7 @@
 
 .barra-footer{
    background-color: #7FFFD4;
-}
+} */
 
 /* ----- SELETTORI RIUTILIZZABILI ----- */
 
@@ -181,11 +181,7 @@ i{
    padding: 10px 0;
 }
 
-
-
-
-
-
+/* secondo footer */
 
 .barra-footer{
    height: 100px;
