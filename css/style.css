@@ -1,0 +1,151 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* --- DEBUG --- */
+
+.bordo{
+   border: dashed 2px black;
+}
+
+.small > nav, .small > div{
+   background-color: #DAA520;
+}
+
+.big{
+   background-color: blue;
+}
+
+.big div{
+   background-color: violet;
+   height: 500px;
+   width: 40%;
+}
+
+section img, p{
+   height: 500px;
+}
+
+img{
+   background-color: #1E90FF;
+   width: 60%;
+}
+
+p{
+   background-color: pink;
+   width: 40%;
+}
+
+.verde{
+   background-color: #228B22;
+}
+
+.div-grande, .logo, .bottone{
+   background-color: #F08080;
+}
+
+.div-piccolo{
+   background-color: #20B2AA;
+   border-color: white;
+}
+
+.barra-footer{
+   background-color: #7FFFD4;
+}
+
+/* --- DEBUG --- */
+
+header{
+   background-color: #255EE9;
+}
+
+.layout-width{
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.flex-centrato{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+}
+
+.small > nav{
+   height: 40px;
+}
+
+.small > div{
+   padding: 5px;
+   height: 40px;
+   margin: 10px 0;
+}
+
+.small div{
+   width: 15%;
+}
+
+nav{
+  width: 70%;
+}
+
+/* PERCHE NON SOVRASCRIVE LA REGOLA DEL 20PX? */
+#lista{
+  padding: 10px;
+  list-style:none;
+}
+
+li{
+   padding: 0 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.right{
+   flex-direction: row-reverse;
+}
+
+.right-grey{
+   background-color: #D3D3D3;
+}
+
+.verde{
+   height: 750px;
+   width: 100%;
+}
+
+.black{
+   background-color: #23272A;
+}
+
+.div-grande{
+   height: 500px;
+   width: 35%;
+}
+
+.div-piccolo{
+   height: 500px;
+   width: 25%;
+}
+
+.top div{
+   padding-top: 10px;
+}
+
+.bottom div{
+   padding-bottom: 0;
+}
+
+.barra-footer{
+   height: 100px;
+   width: 100%;
+   justify-content: space-between;
+   padding: 0;
+}
+
+
