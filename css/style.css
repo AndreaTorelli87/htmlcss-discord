@@ -11,13 +11,8 @@
    border: dashed 2px black;
 }
 
-.div-grande, .logo, .bottone{
+.logo, .bottone{
    background-color: #F08080;
-}
-
-.div-piccolo{
-   background-color: #20B2AA;
-   border-color: white;
 }
 
 .barra-footer{
@@ -25,10 +20,6 @@
 }
 
 /* ----- SELETTORI RIUTILIZZABILI ----- */
-
-header{
-   background-color: #255EE9;
-}
 
 .layout-width{
    max-width: 1170px;
@@ -42,6 +33,14 @@ header{
    padding: 50px 0;
 }
 
+li{
+   padding: 0 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
 .font-white{
    color: white;
 }
@@ -52,6 +51,11 @@ header{
    display: inline-block;
 }
 
+.background-black{
+   background-color: #23272A;
+   color: white;
+}
+
 .background-white{
    background-color: white;
 }
@@ -59,6 +63,10 @@ header{
 h1{
    margin: 10px 0;
    font-size: 40px;
+}
+
+p {
+   line-height: 30px;
 }
 
 .paragrafo-sezione{
@@ -74,9 +82,15 @@ h1{
    color: white;
 }
 
+.font-lilla{
+   color: #7289DA;
+}
+
 /* ----- SELETTORI SPECIFICI ----- */
-p {
-   line-height: 30px;
+
+/* Header */
+header{
+   background-color: #255EE9;
 }
 
 .small div:last-child{
@@ -88,17 +102,9 @@ p {
    padding: 20px 0;
 }
 
-#lista{
+.lista{
   padding: 10px;
   list-style:none;
-}
-
-li{
-   padding: 0 15px;
-}
-
-a{
-  text-decoration: none;
 }
 
 .big{
@@ -118,17 +124,14 @@ a{
    padding: 10px;
 }
 
-.background-black{
-   background-color: #23272A;
-   color: white;
-}
+/* main */
 
 .sezione-grande{
    text-align: center;
    padding: 100px 0;
 }
 
-h2 {
+.sezione-grande h2 {
    margin: 70px 0;
  }
 
@@ -137,27 +140,52 @@ h2 {
    background-repeat: no-repeat;
  }
 
-
-
-
+/* footer */
+/* div grande */
 
 .div-grande{
    height: 500px;
    width: 35%;
 }
 
+.footer-top {
+   padding-top: 40px;
+ }
+
+.lingua{
+   height: 20px;
+   margin: 20px 0;
+}
+
+.lingua img{
+   height: 20px;
+}
+
+.lingua img, .lingua div{
+   display: inline-block;
+}
+
+i{
+   font-size: 30px;
+   padding: 10px 10px 0 0;
+}
+
+/* div piccolo */
+
 .div-piccolo{
    height: 500px;
    width: 25%;
 }
 
-.top div{
-   padding-top: 10px;
+.div-piccolo li{
+   padding: 10px 0;
 }
 
-.bottom div{
-   padding-bottom: 0;
-}
+
+
+
+
+
 
 .barra-footer{
    height: 100px;
