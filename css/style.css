@@ -11,20 +11,6 @@
    border: dashed 2px black;
 }
 
-/* section img, p{
-   height: 500px;
-}
-
-section img{
-   background-color: #1E90FF;
-   width: 60%;
-}
-
-section p{
-   background-color: pink;
-   width: 40%;
-} */
-
 .verde{
    background-color: #228B22;
 }
@@ -75,8 +61,16 @@ header{
 }
 
 h1{
-   margin: 10px;
+   margin: 10px 0;
    font-size: 40px;
+}
+
+.paragrafo-sezione{
+   width: 34%;
+}
+
+.background-grey{
+   background-color: #D3D3D3;
 }
 
 /* ----- SELETTORI SPECIFICI ----- */
@@ -118,7 +112,7 @@ a{
    margin: auto;
 }
 
-.jumbo div, p, h1{
+.jumbo > div,.jumbo > p,.jumbo > h1{
    text-align: center;
    padding: 10px;
 }
@@ -131,9 +125,7 @@ a{
 
 
 
-.right-grey{
-   background-color: #D3D3D3;
-}
+
 
 .verde{
    height: 750px;
