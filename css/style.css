@@ -11,10 +11,6 @@
    border: dashed 2px black;
 }
 
-.verde{
-   background-color: #228B22;
-}
-
 .div-grande, .logo, .bottone{
    background-color: #F08080;
 }
@@ -70,7 +66,12 @@ h1{
 }
 
 .background-grey{
-   background-color: #D3D3D3;
+   background-color: #F6F6F6;
+}
+
+.background-lilla{
+   background-color: #7289DA;
+   color: white;
 }
 
 /* ----- SELETTORI SPECIFICI ----- */
@@ -118,23 +119,27 @@ a{
 }
 
 .background-black{
-   background-color: black;
+   background-color: #23272A;
    color: white;
 }
 
-
-
-
-
-
-.verde{
-   height: 750px;
-   width: 100%;
+.sezione-grande{
+   text-align: center;
+   padding: 100px 0;
 }
 
-.black{
-   background-color: #23272A;
-}
+h2 {
+   margin: 70px 0;
+ }
+
+.sfondo-stelline{
+   background-image: url(../img/stars.svg);
+   background-repeat: no-repeat;
+ }
+
+
+
+
 
 .div-grande{
    height: 500px;
